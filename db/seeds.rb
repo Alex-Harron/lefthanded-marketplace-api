@@ -38,7 +38,39 @@ items = Item.create([
 ])
 
 reviews = Review.create([
-    {text: 'This Product is Amazing', item_id:'9'}
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)},
+    {text: Faker::Lorem.paragraph(sentence_count: 2), item_id: Item.all.sample.id, star_rating: Faker::Number.between(from: 1, to: 5)}
 ])
+
 
 
